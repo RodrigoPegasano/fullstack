@@ -4,27 +4,34 @@
 
 // 'git --version' : Mostrará a versão do git instalado
 
-// 'git init' : Inicializa um git vazio para poder procurarmos os nossos arquivos
+// Como colocar o material em um repositor?
+// 1. Achar a pasta onde queremos mexer:
+//    get cd desktop (ou o que for)
 
-// 'git config user.name "nome-usuario-github"' : Para que procure os arquivos nesses usuarios
-// 'git config user.email "email-cadastrado-github"' : Também precisa desse para ativar a nossa conta
+// 2. Após achar a pasta:
+//    get init
+//    get config user.name "seu nome"
+//    get config user.name (para ver se foi certo)
+//    get config user.email "seu email"
+//    get config user.email (para ver se foi certo)
 
-// Se quisermos que sempre procure nesse usuario e email, adicionar "--global" depois de "config":
-// 'git config --global user.name "nome-usuario-github"'
-// 'git config --global user.email "email-cadastrado-github"'
+// 3. Criando repositor no GitHub:
+//    Criar repositor e ele te dará um link
 
-// git remote add origin 'link'
-// git remote -v : Para ver o link adicionado
-// Link "fetch": De onde vou trazer os arquivos
-// Link "push" : Para onde vou enviar os arquivos
+// 4. No terminal colocar:
+//    git remote add origin "link do repositor"
+//    git remote -v (para ver se o link foi certo)
 
-// cd .. : Voltar
-// cd pwd : ver onde estamos parados no nosso computador
-// cd 'desktop/' : para começar a ir na pasta que queremos criar o git.
+// 5. Precisamos adicionar as pastas ou arquivos que quisermos. Para isso:
+//    git status (mostra o status atual, o que tem nele e o que não)
+//    git add nomePasta (para adicionar a pasta ou arquivo. Sendo nomePasta o nome da pasta)
+//    git add . (adicionar tudo de uma vez só)
 
-// git add : Adicionar arquivo ao git
-// git status : Fornece o status dos arquivos e os status deles em relação ao repositorio
-// exemplo: git add variaveis.js
-//          git status (para ver se deu certo e como está)
+// 6. Após adicionar cada elemento ou fizermos alguma modificação. Devemos colocar um comentario para 
+//    conseguir apagar alguma parte se precisar no futuro
+//    git commit -m "comentario"
 
-// git add . (adiciona todos os arquivos da pasta)
+// 7. Para passar para o repositorio no GitHub:
+//    git push origin master
+//    git pull (para voltar caso dê erro e depois tentar o git abaixo)
+//    git push -f origin master (caso o primeiro dê erro)

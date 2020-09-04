@@ -4,6 +4,10 @@
 
 // 'git --version' : Mostrará a versão do git instalado
 
+
+
+
+
 // Como colocar o material em um repositor?
 // 1. Achar a pasta onde queremos mexer:
 //    get cd desktop (ou o que for)
@@ -35,3 +39,27 @@
 //    git push origin master
 //    git pull (para voltar caso dê erro e depois tentar o git abaixo)
 //    git push -f origin master (caso o primeiro dê erro)
+
+
+
+
+
+// Para baixar arquivos do git
+// 1. No GitHub, ir no repositorio desejado e copiar o link
+
+// 2. No terminal primeiro ir na area do computador de facil acesso
+//    cd desktop
+
+// 3. Clonar o link:
+//    git clone link
+//    ls (se quisermos ver o que tem dentro do link clonado)
+
+// 4. Entrar no conteudo dentro do link:
+//    cd nomeArquivo
+//    ls (para ver se deu certo)
+
+
+
+
+
+// git pull origin master (usado quando você já tem um clone no seu computador e só quer baixar o que tem de novo)

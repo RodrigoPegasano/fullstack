@@ -63,3 +63,110 @@
 
 
 // git pull origin master (usado quando você já tem um clone no seu computador e só quer baixar o que tem de novo)
+
+
+
+
+
+// Branch
+// São uma 'linha' de desenvolvimento diferente da utilizada para testar novas funcionalidades sem interferir na linha principal, chamada de master
+
+// Criando branch
+// git branch 'nome da branch'
+
+// Para utilizar uma branch
+// git checkout 'nome da branch já existente'
+
+// para criar uma branch e utilizar ela em um só comando
+// git checkout -b 'nome da branch'
+
+// Para listar todas as branches do repositorio local
+// git branch
+
+// Para listar todas as branches locais e remotas
+// git branch -a
+
+
+
+
+
+// Log
+// Com ele podemos listar o historico de commits
+
+
+
+
+
+// Head
+// O head é uma referencia ao estado atual do seu repositorio. É comum que ele esteja apontando para o último commit.
+
+// Para nos movermos em qualquer commit
+// git checkout 'os primeiros digitos do hash' (estão do lado de cada commit no github)
+
+// Link para treinamento: https://learngitbranching.js.org/?NODEMO=&locale=pt_BR
+// Link explicação do material com gatos: https://girliemac.com/blog/2017/12/26/git-purr/
+
+
+
+
+
+// Desfazendo mudanças
+// Mudanças que não foram adicionadas no stage
+// git checkout -- nome do arquivo
+
+// Mudanças no stage, mas não commitadas
+// git checkout HEAD -- nome do arquivo
+
+
+
+
+
+// Revert
+// Revertendo uma alteração
+// git revert hashDoCommit
+
+
+// Reset
+// Move o apontador da branch para otro commit
+// git reset --hard hashDoCommit
+
+
+// Merge
+// Une duas branches em uma nova
+// git merge outraBranch
+
+
+// Rebase
+// Emenda a branch atual sobre outra branch
+// git rebase outraBranch
+
+
+
+
+
+// Conflitos
+// As operações de união de branches podem provocar conflitos: ocorre quando o mesmo arquivo tem a mesma parte diferente nas duas branches.
+// Se fizermos o comando 'git merge nomeDoArquivo' e houver conflito, não unirá as branches
+
+// Soluções para isso:
+
+// Opção 1:
+// Manter as linhas da branch atual
+
+// Opção 2:
+// Manter as linhas da outra branch
+
+// Opção 3:
+// Manter todas as linhas das duas branches
+
+// opção 4:
+// Criar alguma condição "if" onde dependendo do que obtiver, queremos que mantenha algumas das opções 1 ou 2
+
+// LEMBRETE:
+// Essas mudanças so serão feitas após adicionar no stage
+   // git add
+   // git commit -m
+
+
+// Mais info tem o PDF na pasta Digital House sobre os comandos do git
+// Ou ver o material do playground

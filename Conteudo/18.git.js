@@ -1,4 +1,5 @@
 // Aprendendo sobre o git:
+// OBS: Em algumas empresas usam outro programa que tem a mesmo funconalidade e funciona exatamente igual. (Bitbucket)
 
 // O git é um software para poder fazer backup e compartilhar pastas ou arquivos de códigos.
 

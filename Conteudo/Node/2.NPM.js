@@ -7,4 +7,8 @@
 //    Esse npm init mostrará todas as informações da pasta e você terá que confirmar se esta tudo certo
 //    Caso queira pular esse passo de confirmação, colocar 'npm init -y'
 // 3. Após a confirmação, o node criar na pasta um arquivo 'package.json' que mostra todas as infomrações dessa pasta
+
 // A partir daquí a gente começa a baixar bibliotecas para nossa pasta
+
+// 1. Colocar no terminal 'npm install packageName --save'
+//    Esse processo mcria um arquivo 'package-lock.json' e uma pasta 'node_modules'

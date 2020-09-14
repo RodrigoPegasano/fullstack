@@ -1,5 +1,8 @@
 // NPM (Node Package Manager = Gerenciador de Pacotes Node)
 
+// TUDO QU VIER A SEGUIR, FOI CRIADO EM CONTEUDO > CRIANDO MODULO NODE
+// NESSA PASTA ESTÁ TODO O RESULTADO DA CRIAÇÃO E ADIÇÃO DE BIBLIOTECA
+
 // É uma grande biblioteca de soluções para o node
 
 // 1. Precisamos criar uma pasta no nosso computador

@@ -23,3 +23,9 @@ let data = moment().format('MMM-YYYY');
 console.log(data);
 // moment é a biblioteca instalada
 // format para formatar e a gente esta pedindo o mês e ano separados por um traço
+
+
+// CHAMANDO O MEU MÓDULO CRIADO
+const herois = require('./Superherois');
+
+console.log(herois);

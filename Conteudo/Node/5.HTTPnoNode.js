@@ -1,6 +1,6 @@
 // Criando nosso primeiro servidor
 
-// Tudo que for falado aqui será feito na pasta 'Criando Servidor'
+// Tudo que for falado aqui será feito na pasta 'Criações' -> 'Criando Servidor'
 
 // 1. Criar uma pasta
 // 2. Dentro da pasta criar arquivo 'app.js'

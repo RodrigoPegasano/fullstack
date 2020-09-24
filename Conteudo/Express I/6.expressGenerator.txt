@@ -1,0 +1,30 @@
+Express Geneator = Ajuda a organizar os nossos arquivos
+ENTRAR EM 'CRIAÇÕES' -> 'CRIANDO EXPGENERATOR' PARA VER TUDO FEITO
+
+1. Instalação:
+   npm install express-generator -g
+
+2. Após a criação, criar um nome para o projeto e então:
+   express myAppName --ejs (exporta um mecanismo de visualização pronto para uso)
+
+3. Entrar na pasta do projeto (para baixar todas as dependencias, afinal, ele não faz isso sozinho):
+   cd myAppName
+
+4. Após entrar na pasta do projeto:
+   npm install
+
+Se entrar na pasta do projeto você verá:
+ -> bin: Todo o controle do nosso servidor
+ -> public: Estão todos os arquivos estaticos (imagens, JS, CSS, etc.)
+ -> routes: Aqui estão nossas rotas
+ -> views
+ -> app.js
+
+5. Para rodar o nosso projeto:
+   nodemon bin/www
+
+6. No google colocamos:
+   localhost:3000
+   Resultado: Express. Welcome to express
+
+AQUI É ONDE A GENTE COMEÇA A TRABALHAR NO NOSSO APP/WEB

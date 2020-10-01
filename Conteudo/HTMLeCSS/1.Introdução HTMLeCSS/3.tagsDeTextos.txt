@@ -1,0 +1,19 @@
+As tags de cada parte:
+
+1. Dentro do HEAD:
+
+   - <meta>:
+     Permite configurar o tipo de caracteres que queremos que o site aceite
+
+2. Dentor do BODY:
+
+   - <h1>, <h2>, <h3>:
+     Dentro do body está dividido nessas tags '<h>' onde h1 mostra, por exemplo, o titulo; h2 subtitulo; h3 sub-subtitulo, até o <h6>
+     Nesses h1 ao h6 temos duferentes subcategorias de titulos.
+
+   - <p> (parágrafo):
+     Usando essa tag escrevemos o material que não seja titulo, ou seja, parágrafos
+
+3. PARA ALINHAR O TEXTO:
+   - Seleccionamos o que queremos e colocamos 'align="onde"':
+     Ex: <h1 align="center"> Titulo </h1>

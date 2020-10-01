@@ -1,0 +1,47 @@
+O que são tags?
+
+   <strong>, <banner>, <head>, <body>, <br>, etc.
+
+   As tags servem como comandos do que deveria estar sendo reproduzido visualmente
+   Elas SEMPRE ficam entre '<>'
+   As tags sempre tem um que mostra onde começa e outro onde acaba. O que marca o fim precisa de um '/':
+   Ex: <html> CONTEÚDO </html>
+
+
+Como é a estrutura do 'projeto':
+1. Sempre devemos dizer onde começa o HTML e onde acaba:
+
+   <html> 
+      todo o conteudo aqui 
+   </html>
+
+2. Seguido por head. No head a gente coloca tudo que é informação de caracteres, idiomas, etc. NÃO É O CONTEÚDO VISIVEL PARA O
+   USUARIO:
+
+   <html>
+      <head>
+        Conteudo do head aqui
+      </head>
+   </html>
+
+3. Seguido pelo body, onde fica todo o conteudo que fica visivel para o usuario:
+
+   <html>
+      <head>
+        Conteudo do head aqui
+      </head>
+      <body>
+        Conteúdo do body aqui
+      </body>
+   </html>
+
+4. O titulo fica entre o head com uma tag title:
+
+   <html>
+      <head>
+        <title> Texto do title </title>
+      </head>
+      <body>
+        Conteúdo do body aqui
+      </body>
+   </html>

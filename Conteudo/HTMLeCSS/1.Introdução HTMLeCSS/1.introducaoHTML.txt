@@ -1,0 +1,10 @@
+No primeiro módulo a gente só escreve uma frase
+
+Se clicar com botão direito no arquivo HTML e seleccionar 'Copy path' e colar no google, mostrará o que escrevemos no arquivo no
+VScode
+
+No google você pode aperta com botão direito em 'inspecionar' e mostrará alguns dados de HTML do que está reporduzindo
+
+IMPORTANTE:
+Se procurarmos uma página qualquer (ex: Beatport) e colocarmos em ispecionar poderemos ver todos os detalhes do site
+Isso é muito bom para estudo!!

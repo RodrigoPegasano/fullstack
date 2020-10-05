@@ -1,0 +1,17 @@
+Tags de links e imagens:
+
+1. <a href="">:
+   - Tag para links
+
+2. <img src="" alt="">:
+   - Tag para imagens
+   - Se a gente quer diminuir o tamanho da imagem, depois do src="" colocamos width="X". Em que X é o número em pixels.
+
+Tags Absolutas:
+
+1. Para links absolutos devemos passar um link exato. Ex: "https://www.google.com.br/"
+2. Para imagens a mesma coisa. Direcionamos para um link exato.
+
+Rotas relativas:
+
+1. Para links e imagens, mandamos ela atraves de todas as pastas no computador até chegar na do conteudo que queremos.

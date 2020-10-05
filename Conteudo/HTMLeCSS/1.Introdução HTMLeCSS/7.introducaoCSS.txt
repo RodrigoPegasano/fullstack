@@ -1,0 +1,55 @@
+CSS:
+
+- O CSS serve para o design e formato do nosso site:
+  -> Cores
+  -> Tamanho da letra
+  -> Estilo
+  -> Tipografía
+
+Colocando fontes:
+
+1. No arquivo de html devemos colocar na primeira linha:
+   <!DOCTYPE html>
+
+2. Dentro do <head> devemos colocar:
+   <link rel="stylesheet" href="A ROTA ATÉ O ARQUIVO DE CSS">
+
+
+No arquivo de CSS podemos usar alguns parametros para cuidar do design do site, por exemplo:
+LEMBRANDO QUE DEVEMOS DIZER ONDE QUEREMOS ISSO. EX: BODY, HEAD, H1, H2, P, ETC.
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: justify;
+    line-height: 20px;
+}
+
+h2 {
+    font-style: italic;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+O que cada um faz?
+
+- font-family: A fonte que a gente quer para o texto na parte escolhida
+- font-size: Tamanho da fonte
+- font-weight: Grossura da fonte
+- text-align: Onde fica o texto, mais para a esquerda, direita, centralizado, etc
+- line-height: Espaço entre as linhas
+- font-style: Estilo da fonte. Italico, normal, etc
+- text-transform: Tranformar o texto escolhido. Tudo em maiuscula, minuscula, etc
+
+- Tipos de seletores de CSS:
+  -> Seletores de etiquetas
+  -> Seletores de clase
+  -> Seletores de ID

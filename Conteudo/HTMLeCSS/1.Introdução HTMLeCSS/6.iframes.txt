@@ -1,0 +1,9 @@
+A versão 5 do HTML tem duas novas tags que permitem adicionar audios e videos no nosso site:
+
+- <audio></audio>
+- <video></video>
+
+Tem também a tag iframe:
+
+- Nos ajudará a inserir conteúdo de outro site no nosso
+- Se quisermos ajustar o tamanho da janela podemos usar o width e heigth

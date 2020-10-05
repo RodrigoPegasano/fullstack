@@ -1,0 +1,13 @@
+Tag combinada:
+
+1. <ul>:
+   - Utilizada para determinar o começo e fim de uma lista. Separa os elementos por tópicos.
+
+2. <li>:
+   - Para descrever cada elemento da lista.
+
+3. <ol>:
+   - Listas ordenadas. Os elementos também ficam entre <li> más o <ol> ordenará eles de forma numerica(1., 2., 3., etc)
+   - Se você quer que a contagem ordenada começe no numero X devemos:
+     -> <ol start="X"> ELEMENTOS </ol>
+     -> Outro exemplo neste link: https://www.w3schools.com/tags/att_ol_start.asp

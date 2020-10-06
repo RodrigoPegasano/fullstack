@@ -1,0 +1,15 @@
+Se queremos destacar uma parte especifica do texto podemos usar:
+
+- <em> TEXTO </em>: Deixa o texto em italico.
+- <strong> TEXTO </strong>: Deixa o texto em negrito.
+- <mark> TEXTO </mark>: Deixa o texto grifado, como um marcatexto.
+- <cite> TEXTO </cite>: Deixa o texto em italico
+- <abbr> TEXTO </abbr>: Podemos colocar uma abreviação e também dizer o que essa abreviação significa:
+  
+  <h1>Titulo do Site - <abbr title="Rodrigo Pegasano"> RP </abbr></h1>
+
+  O resultado final disso será:
+  Titulo do Site - RP
+  
+  E se ficar encima do RP mostrará "Rodrigo Pegasano"
+- 

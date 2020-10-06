@@ -53,3 +53,19 @@ O que cada um faz?
   -> Seletores de etiquetas
   -> Seletores de clase
   -> Seletores de ID
+
+
+- Se queremos chamar uma tag (etiqueta) so colocamos qual parte queremos que seja editada. Por exemplo:
+h3 {
+  color: blue
+}
+
+- Se queremos chamar e alterar alguma class (classe) devemos colocar um ponto antes (.x). Por exemplo:
+.negrito{
+  font-weight: bold
+}
+
+- Se queremos chamar e alterar algum id devemos colocar # antes do id (#X). Por exemplo:
+#gigante{
+  font-size: 40px
+}

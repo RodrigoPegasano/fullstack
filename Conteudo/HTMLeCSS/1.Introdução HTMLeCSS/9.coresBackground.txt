@@ -1,0 +1,32 @@
+Para colocar cor de fundo:
+1. Escolhemos onde queremos colocar a cor
+2. E colocar o background-color
+  - Tem 3 jeitos de escolher a cor que você quer:
+    -> Escrever a cor em inglês:
+       Ex: background-color: red;
+    
+    -> Escrever o código de cada cor:
+       Ex: background-color: #ccc
+       Esses códigos podem ser encontrados na internet
+    
+    -> Mudar o numero de cada um do red, green, blue. Esse numero varia entre 0 - 255:
+       Ex: background-color: rgb(20, 164, 253)
+
+  - Também podemos deixar a cor mais clara ou opaco, esse valor varia entre 0 - 1:
+    -> Se for usando o metodo rgb:
+       Ex: background-color: rgba(20, 164, 25)
+    
+    -> Se for usando o código ou a cor em inglês:
+       p{
+           opacity: x;
+       }
+
+Também podemos colocar uma imagem de fundo, para isso:
+
+background-image: url(ADICIONAR O CAMINHO DA IMAGEM)
+
+Caso a imagem seja menor e fique repetida, você pode usar uma tag para que ela ocupe 100% da tela. Ele trabalha com porcentagem:
+
+background-size: X% ou cover (o cover vai sempre cobrir a pagina inteira)
+
+- background-repeat: Serve para dizer se a gente quer ou não que a imagem seja repetida.

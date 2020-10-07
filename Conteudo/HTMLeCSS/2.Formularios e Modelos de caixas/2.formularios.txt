@@ -54,3 +54,11 @@ Ex:
         <br><br>
         <input type="submit" value="Enviar"> OU <button>Enviar</button>
     </form>
+
+    Para criar o botão que vai direcionar para algum outro lugar após preencher o formulario:
+    Temos essas duas opções:
+    EX1:
+        <input type="submit" value="TEXTO">
+
+    EX2:
+        <button> TEXTO </button>

@@ -1,0 +1,33 @@
+Mais sobre os formularios:
+
+Radio buttons:
+São as bolinhas que nos permitem escolher uma opção. Por exemplo, queremos escolher o tamanho da pizza, tem que saber G, M ou P
+
+Checkbox:
+São as caixas quadradas que deixam escolher varias opções. Por exemplo, queremos escolher ingredientes da pizza, queijo, tomate, etc.
+
+Como escrever isso no formulario?
+
+Radio button:
+EX:
+    <label>Sexo:</label>
+    <br>
+    <input type="radio" id="masculino" name="sexo" value="masculino"><label for="masculino">Masculino</label>
+    <input type="radio" id="feminino" name="sexo" value="feminino"><label for="feminino">Feminino</label>
+
+DETALHES:
+1. Temos que adicionar o parâmetro 'name=""' se quisermos que apenas uma opção seja permitido seleccionar
+
+Checkbox:
+EX:
+    <label for="filmes">Qual seu gênero favorito?</label>
+    <br>
+    <input type="checkbox" name="filmes" id="terror" value="terror" checked><label for="terror">Terror</label>
+    <br>
+    <input type="checkbox" name="filmes" id="comedia" value="comedia"><label for="comedia">Comedia</label>
+    <br>
+    <input type="checkbox" name="filmes" id="drama" value="drama"><label for="drama">Drama</label>
+
+DETALHES:
+1. se dentro do input colocamos o 'checked' em alguma das categorias, ela já vem seleccionada no formulario
+   (também pode ser feito no Radio button)

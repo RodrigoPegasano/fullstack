@@ -1,0 +1,48 @@
+Mais sobre formularios:
+Atributos e etiquetas que facilitam a interatividades
+
+Dropdown:
+Dropdown é aquele que quando aperta aparecem opções para selecionar. Por exemplo, selecionar país: Arg, Bra, Chile, etc.
+EX:
+    <label for="pais">País</label>
+    <br>
+    <select name="pais" id="pais">
+        <option selected disabled>Selecione</option>
+        <option value="BR">Brasil</option>
+        <option value="ARG">Argentina</option>
+        <option value="UY">Uruguay</option>
+        <option value="JP">Japão</option>
+        <option value="KR">Coreia</option>
+        <option value="RU">Russia</option>
+    </select>
+
+DETALHES:
+1. O primeiro option é o que primeiro aparece para a pessoa, ou seja, podemos nomear de 'selecione'.
+   Porém, ele interpreta como que já é um país. Para mudar isso colocamos o 'selected disabled' que reconhece que é apenas um
+   parâmetro de entrada e não uma opção.
+
+Caixa de mensagem:
+A caixa final de um formulario onde podemos dar nosso feedback, por exemplo.
+EX:
+    <label for="mensagem">Mensagem:</label>
+    <br>
+    <textarea name="mensagem" id="mensagem" cols="40" rows="10"></textarea>
+
+DETALHES:
+1. As opções 'cols' e 'rows' são para determinar o tamanho da caixa de mensagem.
+
+botões adicionais:
+1. Podemos usar o <button> com o parâmetro 'reset' para limpar todos os campos do formulario de uma vez só.
+EX:
+   <button type="reset">Limpar tudo</button>
+
+2. Podemos usar o <button> com o parâmetro "button" como testes.
+   Será um botão 'vazio' conectado com o javascript para fazer teste e gerar uma ação determinada por ele.
+EX:
+   <button type="button">Teste</button>
+
+Como colocar campos obrigatorios?
+no <input> de cada parâmetro obrigatorio devemos colocar 'required'
+EX:
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="email@me.com" required>

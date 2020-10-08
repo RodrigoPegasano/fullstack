@@ -1,0 +1,30 @@
+Existem dois tipos de elementos para o nosso site:
+
+Caixas em blocos:
+Ocupam 100% da largura e em seguida fazem uma quebra e vai para a proxima linha. Por exemplo, titulos e paragrafos.
+
+DETALHES:
+1. Como o paragrafo não representa exatamente o que queremos fazer, devemos criar a tag <div>
+   -> Cada div é uma caixa, que pode ter imagem, texto ou tudo.
+   -> Porém, sempre apresenta uma quebra de linha
+
+
+Caixas em linha:
+Elas ocupam largura e altura do seu conteudo. Por exemplo, imagens e hiperlinks
+
+DETALHES:
+1. Aqui usamos a tag <span>:
+   -> Permite destacar uma determinada parte do conteudo sem modificar a largura e altura das linhas
+
+Display:block
+- <p>
+- <h1>
+- <div>
+
+Display:inline
+- <span>
+- <a>
+- <img>
+
+Display:none
+- A caixa desaparecerá completamente, ficando invisivel para o usuario

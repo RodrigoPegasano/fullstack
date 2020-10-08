@@ -1,0 +1,46 @@
+Detalhes extras:
+
+NOTA 1: O ':hover' faz com que ao passar por cima do elemento, ele fique dedeterminada cor. Caso contrario, essa cor fica constante.
+NOTA 2: O ':focus' faz que ao clicar para editar em um box, o seu tamanho fique maior. Caso contrario, esse tamanho fica fixo.
+
+Se quisermos por exemplo que ao passar a ceta do mouse encima do box de preenchimento fique pintado de cor, no css:
+EX:
+   input:hover{
+       background-color: orangered;
+   }
+
+Se quisermos que as bordas dos boxes fiquem pintados:
+EX:
+   input:hover{
+       border-color: orangered;
+   }
+
+Se quisermos que os paragrafos fiquem pintados quando passamos o mouse por cima:
+EX:
+   p:hover{
+       color: purple;
+   }
+
+Se quisermos que ao clicar em um box para preencher, o tamanho do box fique maior, usamos:
+EX:
+   input:focus{
+       width: 400px;
+   }
+
+Se quisermos que o primeiro paragrafo da pagina tenha fundo de alguma cor (se quisermos o ultimo paragrafo, usamos last-of-type):
+EX:
+   p:first-of-type{
+       background-color: gray;
+   }
+
+Se quisermos pintar apenas os parágrafos impares:
+EX:
+   p:nth-child(odd){
+       background-color: gray;
+   }
+
+So os pares:
+EX:
+   p:nth-child(even){
+       background-color: gray;
+   }

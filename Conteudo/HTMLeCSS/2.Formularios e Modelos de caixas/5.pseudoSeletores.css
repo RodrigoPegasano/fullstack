@@ -1,0 +1,19 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input:hover{
+    border-color: orangered;
+}
+
+input:focus{
+    width: 400px;
+}
+
+p:hover{
+    color: purple;
+}
+
+p:nth-child(even){
+    background-color: gray;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="urf-8">
+        <title>Documentos</title>
+        <link rel="stylesheet" href="5.pseudoSeletores.css">
+    </head>
+
+    <body>
+        <h1>Formulario</h1>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur tenetur facere commodi placeat excepturi saepe in voluptates sapiente dolore tempora, dicta eius veritatis repudiandae doloribus molestias harum voluptate, ab illo.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas impedit, cum repellat rem veniam accusamus ullam sint? Blanditiis omnis veritatis illo expedita voluptatum. Minima itaque perspiciatis rerum similique eos pariatur?</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto reiciendis odio maiores amet quibusdam assumenda tempore rerum corporis optio facere velit eaque iste id, veniam nam repudiandae cupiditate reprehenderit eos.</p>
+        <br>        
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="email@me.com" required>
+            <br>
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(xx) xxxx-xxxx" required>
+            <br>
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Crie uma senha" required>
+            <br><br>
+            <label>Sexo:</label>
+            <br>
+            <input type="radio" id="masculino" name="sexo" value="masculino"><label for="masculino">Masculino</label>
+            <input type="radio" id="feminino" name="sexo" value="feminino"><label for="feminino">Feminino</label>
+            <br><br>
+            <label for="filmes">Qual seu gênero favorito?</label>
+            <br>
+            <input type="checkbox" name="filmes" id="terror" value="terror" checked><label for="terror">Terror</label>
+            <br>
+            <input type="checkbox" name="filmes" id="comedia" value="comedia"><label for="comedia">Comedia</label>
+            <br>
+            <input type="checkbox" name="filmes" id="drama" value="drama"><label for="drama">Drama</label>
+            <br><br>
+            <label for="pais">País:</label>
+            <select name="pais" id="pais">
+                <option selected disabled>Selecione</option>
+                <option value="BR">Brasil</option>
+                <option value="ARG">Argentina</option>
+                <option value="UY">Uruguai</option>
+                <option value="JP">Japão</option>
+                <option value="KR">Coreia</option>
+                <option value="RU">Russia</option>
+            </select>
+            <br><br>
+            <label for="mensagem">Mensagem:</label>
+            <br>
+            <textarea name="mensagem" id="mensagem" cols="40" rows="10"></textarea>
+            <br><br>
+            <!-- <input type="submit" value="Enviar"> -->
+            <button type="button">Teste</button>
+            <button type="reset">Limpar tudo</button>
+            <button>Enviar</button>
+        </form>
+
+    </body>
+</html>

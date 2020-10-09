@@ -1,0 +1,18 @@
+Modelo de Caixas:
+
+- Se aplicam apenas a tags de bloco, ou seja, a <span>, <a> e <img> não são levadas em conta
+-Se quisermos operarc com modelos de caixas com tags inline, primeiro devemos trocar a propriedade display
+
+O que é um modelo de caixa?
+
+- Representa um conjunto de propriedades css que permite contribuir tamanho e separação a todas essas caixas no nosso site
+- Imaginemos uma caixa como um quadrado que tem altura e largura
+- Vamos lidar com essas propriedades (altura e largura) no css com o width e height. Podemos lidar com esses parametros por px ou %
+
+Tags que utilizaremos:
+- Border = Vai nos permitir colocar uma largura e uma definição no contorno da nossa caixa
+- Padding = Entre o texto e a nossa caixa pode haver uma separação. O padding é responsavel por isso
+- Margin = Responsavel pela separação entre a borda de uma caixa e a outra
+
+Tag:
+Box-sizing: border-box;

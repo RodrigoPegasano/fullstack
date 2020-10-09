@@ -16,15 +16,20 @@ DETALHES:
 1. Aqui usamos a tag <span>:
    -> Permite destacar uma determinada parte do conteudo sem modificar a largura e altura das linhas
 
-Display:block
+Display:block (em bloco)
 - <p>
 - <h1>
 - <div>
 
-Display:inline
+Display:inline (em linha)
 - <span>
 - <a>
 - <img>
 
-Display:none
-- A caixa desaparecerá completamente, ficando invisivel para o usuario
+Display: inline-block (semi)
+
+Display:none (A caixa desaparecerá completamente, ficando invisivel para o usuario)
+
+Para criar um hyperlink devemos cercar a palavra em:
+EX:
+   <a href="#"> TEXTO </a>

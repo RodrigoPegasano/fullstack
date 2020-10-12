@@ -1,0 +1,31 @@
+Aqui a gente ta aprendendo o position. Ele nos permite ajustar em pixels quanto queremos mexer o conteudo.
+Podendo ser ate mesmo para sobrepor uma da outra
+
+Devemos escolher onde queremos aplicar e o position tem varias utilizades:
+
+position relative: pequenas compensações e sobreposições.
+position absolute: posicione os elementos absolutamente em relação aos lados do corpo.
+position fixed: corrija um elemento e o acompanhe ao rolar.
+relative + absolute: o elemento com position absolute toma como referência as arestas de seu conteinerpai e não o body.
+
+Relative:
+EX:
+   footer{
+       position: relative;
+       top: 30px;
+       bottom: 0;
+       left: 0;
+       right: 0;
+}
+
+Absolute:
+EX:
+   footer{
+       position: absolute;
+   }
+
+Fixed: (esse deixa o elemento fixo mesmo que o usuario desca na página)
+EX:
+   footer{
+       position: fixes
+   }

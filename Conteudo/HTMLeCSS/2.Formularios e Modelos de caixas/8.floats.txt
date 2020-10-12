@@ -1,0 +1,24 @@
+Usando o 8.floats.html como exemplo:
+
+As noticias estão uma abaixo da outra. O 'float' faz com que a gente diga como vai querer as noticias, por exemplo, uma do lado da
+outra.
+
+Como fazer isso?
+
+1. A gente tem que pegar a tag article no css e colocar:
+EX:
+   article{
+       float: left;
+       width: 30%;
+   }
+
+DETALHES:
+-> O float: left coloca as noticias uma ao lado da outra
+-> O width é para mudar a largura das noticias, ou seja, de cada article
+
+Isso, porem, tem um problema. Ao usar o flot, ele 'ignora' os espaços certos dos article, colocando eles por cima de outras caixas.
+Para arrumar isso devemos ver quem é o que 'manda', neste caso o 'section class="noticias"'.
+Para isso:
+          section.noticias{
+              overflow: hidden;
+          }

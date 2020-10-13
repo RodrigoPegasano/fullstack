@@ -1,0 +1,47 @@
+header{
+    border: 3px solid black;
+    padding: 30px;
+    margin: 10px;
+}
+
+main{
+    border: 3px solid black;
+    padding: 30px;
+    margin: 10px;
+}
+
+footer{
+    border: 3px solid black;
+    padding: 30px;
+    margin: 10px;
+}
+
+section{
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
+
+article{
+    padding: 20px;
+    margin: 20px 0;
+    background-color: darkcyan;
+}
+
+span{
+    background-color: yellow;
+}
+
+article{
+    float: left;
+    width: 30%;
+}
+
+section.noticias{
+    overflow: hidden;
+}
+
+@media (max-width: 1301px){
+    article{
+        width: 100%;
+    }
+}

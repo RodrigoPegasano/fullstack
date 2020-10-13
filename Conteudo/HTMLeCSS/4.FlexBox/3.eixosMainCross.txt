@@ -1,0 +1,36 @@
+O flexbox trabalha com dois eixos para desenvolver todo o seu fluxo interno: o eixo X e o eixo Y.
+
+Eixo principal: Main axis
+Eixo transversal: Cross axis
+
+Com estes eixos podemos ajustar o nosso conteudo do site para ficar centralizado, na direita, esquerda, etc.
+
+Para isso devemos usar:
+
+- flex-direction: Com esta propriedade definimos o main axis do container (eixo principal), que pode ser tanto horizontal como
+  vertical. O cross axis (eixo transversal), será a direção perpendicular ao main axis:
+
+  -> row; row-reverse; column; column-reverse.
+
+- justify-content: Com esta propriedade alinhamos os itens ao longo dos main axis. Se é horizontal, se alinharão em função da linha.
+  Se for vertical, eles serão alinhados de acordo com a coluna.
+
+  -> flex-start; flex-end; center; space-between; space-around.
+
+- align-items: Com esta propriedade alinhamos os itens ao longo do eixo transversal. Se não esclarecermos esta propriedade, o valor
+  padrão é stretch.
+
+  -> stretch; flex-start; flex-end; center.
+
+EX:
+   .caixa{
+    width: 669px;
+    height: 100vh;
+    margin: 0px auto;
+    border: 3px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }

@@ -1,0 +1,14 @@
+Z-Index:
+
+Serve para sobrepor imagens, conteudos do nosso site.
+O z-index trabalha com valores numericos, onde 1 é o normal e qualquer numero acima disso seria o quanto ele
+sobrepoe.
+
+EX:
+   img.chat{
+       width: 80px;
+       position: fixed;
+       right: 0;
+       bottom: 0;
+       z-index: 2;
+   }

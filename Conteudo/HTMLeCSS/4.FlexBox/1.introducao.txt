@@ -1,0 +1,3 @@
+O que é?
+
+- É uma metodologia CSS que permite esquematizar uma página web utilizando uma estrutura de linhas e colunas.

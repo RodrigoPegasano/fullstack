@@ -1,0 +1,9 @@
+Aqui a gente aprende o começo de como ajustar o nosso site para ficar visivel em qualquer plataforma, seja
+celular, tablet, computador, notebook, etc.
+
+O primeiro passo é adicionar no Head mais um meta com nome 'viewport'
+
+Sem adicionar isso, o usuario não tera uma boa experiencia no nosso site.
+
+EX:
+    <meta name="viewport">

@@ -1,0 +1,15 @@
+Implementando o display: flex e flex-wrap: wrap
+
+EX:
+   .caixa{
+    width: 669px;
+    margin: 20px auto;
+    border: 3px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+DETALHES:
+- O display: flex sempre vai no container-pai
+- O flex-wrap permite que se não couver na caixa, pode quebrar e colocar na proxima linha.
+- Também temos o flex-wrap: wrap-reverse que inverte a ordem dos elementos. Os que estavam na fileira de baixo ficam encima.

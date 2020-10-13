@@ -1,0 +1,23 @@
+Aqui aprendemos a colocar os itens em ordens determinadas, diferentes tamanhos no espaço e onde (encima, embaixo, esquerda ou direita).
+
+Para isso usamos:
+
+- order: X
+- align-self:
+- flex-grow:
+
+EX:
+   .item1{
+       flex-grow: 1;
+    align-self: flex-start;
+   }
+
+   .item2{
+       flex-grow: 1;
+   }
+
+   .item3{
+       flex-grow: 1;
+       align-self: flex-end;
+       order: -1;
+   }

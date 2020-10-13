@@ -1,0 +1,17 @@
+Mobile-first e Mobile-last:
+
+Mobile-first:
+- Criamos nosso site pensado primeiro no mobile e o adaptamos ele a outras plataformas.
+- É o mais rápido, util e conhecido no mercado.
+
+Mobile-last:
+- Criamos nosso site pensado no computador primeiro e o adaptamos para outras plataformas.
+
+Para isso devemos usar o @media, onde dizem que se o aparelho tiver determinado ta,anho, queremos alguns ajustes específicos.
+
+EX:
+   @media (max-width: 1301px){
+    article{
+        width: 100%;
+    }
+   }

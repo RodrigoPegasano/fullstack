@@ -1,0 +1,39 @@
+Medidas relativas, aqui a gente pode ajustar as partes do site para que tudo fique bom independente da plataforma.
+
+Recomendamos usar valores de altura e largura em porcentagens (valores absolutos) no lugar de pixels.
+Os pixels são 'distorcidos' ao mudar as plataformas. A porcentagem se adapta á plataforma.
+
+Caso usemos em pixels e quisermos que se adapte as outras plataformas:
+
+EX:
+   p{
+       width: 760px;
+       max-width: 100%;
+       margin: 0 auto;
+       padding: 10px 0;
+       text-align: justify;
+   }
+
+Também podemos usar no width e height com ajustes para viewport:
+
+Para a altura usamos o valor em vh e para largura usamos vw:
+
+EX:
+   header{
+       text-align: center;
+       width: 100%;
+       height: 100vh;
+       position: fixed;
+       z-index: 2;
+   }
+
+DETALHE: Neste caso, o height ocupará 100% da tela.
+
+EX:
+   img.banner{
+       width: 100vw;
+       padding: 20px;
+       max-width: 100%;
+   }
+
+DETALHE: Neste caso, ocupará 100% da tela na lateral.

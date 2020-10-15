@@ -1,1 +1,96 @@
 Link de icones (indicação do professor): https://fontawesome.com/
+
+O que é boostrap?
+- Um site onde podemos copiar e colar modelos e disenhos para o nosso site. Tudo da parte visual
+
+Como funciona?
+1. Devemos entrar no site dele e na parte "documentação" temos que copiar o stylesheet que está na parte CSS do site e colar no nosso head
+   do html:
+
+EX: 
+
+   <!DOCTYPE html>
+
+   <html lang="pt-br">
+
+       <head>
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Document</title>
+       </head>
+       <body>
+
+       </body>
+    </html>
+
+2. Devemos também copiar o script Bundle do JS do site e colar no final do nosso body no html:
+
+EX:
+
+   <!DOCTYPE html>
+
+   <html lang="pt-br">
+
+       <head>
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Document</title>
+       </head>
+       <body>
+       
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+       </body>
+    </html>
+
+3. A partir daqui a gente pode pegar os modelos que vemos no site e simplesmente copiamos e colamos. E depois editamos o que queremos
+   para atender nossas necesidades.
+
+Se for usar as pastas baixadas do bootstrap tem que adicionar elas no seu projeto e direcionar a elas no seu html:
+
+EX:
+   
+    <!DOCTYPE html>
+
+   <html lang="pt-br">
+
+       <head>
+           <link rel="stylesheet" href="css/boostrap.min.css">
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Document</title>
+       </head>
+       <body>
+       
+        <script src="js/boostrap.min.js"></script>
+       </body>
+    </html>
+
+1. Para o resultado de cima, primeiro baixamos as pastas css e js do site
+2. Colocamos na nossa pasta apenas o 'boostrap.min.css' e 'boostrap.min.js
+3. DETALHE: Todas as outras pastas podem ser apagadas!
+
+MESMO COM ISSO, DARÁ ERRO. DEVEMOS ADICIONAR O CODIGO JQUERY ANTES DO NOSSO SCRIPT:
+
+1. Entrar no site do boostrap e baixar o ultimo codigo do jquery. Devemos baixar o 'minified'
+2. Colar antes do script:
+
+EX:
+       <!DOCTYPE html>
+
+   <html lang="pt-br">
+
+       <head>
+           <link rel="stylesheet" href="css/boostrap.min.css">
+           <meta charset="utf-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <title>Document</title>
+       </head>
+       <body>
+       
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+        <script src="js/boostrap.min.js"></script>
+       </body>
+    </html>

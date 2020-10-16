@@ -1,3 +1,36 @@
-.alert-dark{
-    background-color: blue;
-}
+.header {
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  .section-one {
+    background-color: blueviolet;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+
+  .section-two {
+    background-color: salmon;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+
+  .section-three {
+    background-color: sandybrown;
+    height: 150px;
+    margin-bottom: 15px;
+  }
+
+  .footer {
+    background-color: aqua;
+    height: 150px;
+  }
+
+  @media (max-width: 540px) {
+    .section{
+      background-color: rgb(104, 216, 76);
+    }
+  }
+  

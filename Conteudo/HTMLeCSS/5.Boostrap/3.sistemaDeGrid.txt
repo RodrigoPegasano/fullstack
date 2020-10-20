@@ -1,0 +1,5 @@
+col-12 = Menor que 576px
+col-sm-12 = Maior ou igual a 576px
+col-md-6 = Maior ou igual a 768px
+col-lg-4 = Maior ou igual a 992px
+col-xl-2 = Maior que 1200px

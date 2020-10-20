@@ -1,0 +1,15 @@
+Containers:
+- Um container é um elemento HTML cuja principal função é alinhar outros elementos e conte-los para que se acomodem dentro de sua
+  largura e altura.
+
+Para container pode usar qualquer elemento:
+- <div>, <section>, <article>
+
+IMPORTANTE: Nunca usamos as duas clases ao mesmo tempo
+
+Break point:
+- Ponto em que ocorre uma mudança
+
+Clases:
+- container: Ela cria uma margem automatico, ou seja, um margine padding que é respeitado independente de web ou mobile
+- container-fluid: Ela não cria nenhuma margem automatica

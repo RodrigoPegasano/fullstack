@@ -1,0 +1,4 @@
+- Express trata o pedido e a resposta como objetos. Ele recebe um pedido, processa-o e devolve um objeto como resposta.
+- Cada pedido requer uma série de passos para ser processado. Express divide essas responsabilidades em funções chamadad middlewares.
+- Middlewares são funções executadas no meio da execução do pedido do cliente e da resposta ao mesmo.
+- As rotas que requerem middlewares, além da solicitação e resposta, devem receber um terceiro parametro: a função seguinte.

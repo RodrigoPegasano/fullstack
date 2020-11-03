@@ -1,0 +1,20 @@
+TUDO QUE ESTÁ AQUI FOI CRIADO EM CRIAÇÕES > CRIANDO-EXPII-INSTALACAO
+
+Instalação manual:
+
+1. Criar uma pasta e escolher um nome a ela
+2. Entrar na pasta e iniciar o npm:
+   npm init -y
+3. Instalar o express ejs:
+   npm install express ejs --save
+4. Dentro da pasta devemos criar um arquivo app.js
+5. Devemos levar no app.js o express que foi instalado:
+   const express = require('express');
+   const app = express('view engine', 'ejs');
+   app.listen(3000, () => {
+       console.log('server rodando na porta 3000')
+   })
+
+DETALHE: Esse é o método manual, também podemos fazer o seguinte:
+   express --view=ejs nomeProjetoInexistente
+Esse modelo automático cria a pasta com o nome que você deu

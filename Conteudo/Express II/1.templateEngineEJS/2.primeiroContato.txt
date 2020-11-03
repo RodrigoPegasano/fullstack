@@ -1,0 +1,10 @@
+TUDO QUE ESTÁ AQUI FOI CRIADO EM CRIAÇÕES > CRIANDO-EXPII-PC
+
+Instalção automatica:
+
+Primeiro devemos instalar o express global:
+  npm install -g express-generator
+
+Depois criar o projeto instalando o ejs:
+   express --view=ejs nomeProjetoInexistente
+Esse modelo automático cria a pasta com o nome que você deu e tudo que pode ser necesario no nosso projeto

@@ -1,0 +1,11 @@
+CREATE TABLE: Permite criar uma tabela do zero
+DROP TABLE: Atua apenas na tabela que queremos excluir
+ALTER TABLE: Permite alterar uma tabela podendo operar com 3 comandos:
+  -> ADD: Adicionar coluna
+  -> MODIFY: Modificar uma coluna
+  -> DROP: Excluir uma coluna
+
+Vamos reporduzir tudo no MySQL
+
+- Criar um novo schema
+- Escolher o tipo de charset que usaremos. SEMPRE 'utf8'

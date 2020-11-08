@@ -1,0 +1,28 @@
+Tipos de dados:
+Quando projetamos uma base de dados temos que pensar que tipo de dados é util para o nosso modelo.
+Cada tipo de dados tem um tamanho determinado e quando mais precisão colocarmos a esses dados, mais rapido e mais performante o
+MySQL funcionará.
+
+Dados numericos:
+- Int
+- Tinyint
+- Smallint
+- Bigint
+- Decimal
+- Floar
+- Boolean
+
+Dados tipo texto:
+- Char
+- Varchar
+- text
+
+Dados tipo data:
+- Date
+- Time
+- Datetime
+
+Restrições:
+- Notnull: Não estarão vazias
+- Unique: Não pode se repetir
+- Default e Auto_incement: 

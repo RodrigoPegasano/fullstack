@@ -1,0 +1,23 @@
+Diagramas relacionais:
+Permite que voce compreenda rápida e facilmente todas as tabelas do nosso banco de dados
+
+Dentro do sistema temós:
+- Entidades: serão a representação de um objeto ou coisa da vida real. Ex: entidades chamadas "filmes", "atores", "generos"
+- Atributos: definem cada entidade. Ex: Dentro da entidade "filmes" temos os atributos "titulo", "avaliação", "data_de_lancamento"
+
+Chave primaria (Primary Key - PK):
+É um campo ou conjunto de campos que identifica de forma exclusiva cada linha em uma tabela. Ou seja, não pode haver duas linhas em uma
+tabela com o mesmo PK.
+Dica: Para identificar uma chave primaria, podemos escrever o atributo em negrito seguido das iniciais 'PK'
+
+Cardinalidade (forma como as enidades se relacionam entre elas):
+- 1:1 um pra um
+  Ex: Um usuario so tem um endereçõ. O endereço pertence apenas a um usuario
+- 1:M um pra muitos
+  Ex: Um cliente pode ter muitos cartões. Mas um cartão pertence apenas a um cliente
+- M:1 muitos pra um
+- M:M muitos pra muitos
+  Ex: Um cliente pode comprar muitos produtos. Um produto pode ser comprado por muitos clientes
+
+Tabela intermediaria:
+Uma tabela que representa o cruzamento entre clientes e produtos, por exemplo.

@@ -1,0 +1,25 @@
+SQL: Base de dados
+
+O que é?
+- É um conjuto de dados pertencentes ao mesmo contexto organizado para um fim específico
+- É uma representação de aspectos da realidade
+
+Para que serve?
+- Armazenar dados
+- Acesso aos dados no futuro
+- Manipular dados e combiná-los
+- Analisar dados
+
+Os bancos de dados são organizados por tabelas com colunas e linhas:
+- Linhas: Elas contem os dados/registros especificamente
+- Colunas: Elas representam os atributos/campos de cada dado/gravação
+
+Ex:
+   website tem:
+     -> Programas
+     -> Registros
+    
+    Blog tem:
+     -> Posts
+     -> Comentarios
+

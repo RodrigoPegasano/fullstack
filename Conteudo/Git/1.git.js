@@ -21,7 +21,7 @@
 //    get config user.email (para ver se foi certo)
 
 // 3. Criando repositor no GitHub:
-//    Criar repositor e ele te dará um link
+//    Criar repositorio e ele te dará um link
 
 // 4. No terminal colocar:
 //    git remote add origin "link do repositor"

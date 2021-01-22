@@ -1,6 +1,6 @@
 Detalhes extras:
 
-NOTA 1: O ':hover' faz com que ao passar por cima do elemento, ele fique dedeterminada cor. Caso contrario, essa cor fica constante.
+NOTA 1: O ':hover' faz com que ao passar por cima do elemento, ele fique de determinada cor. Caso contrario, essa cor fica constante.
 NOTA 2: O ':focus' faz que ao clicar para editar em um box, o seu tamanho fique maior. Caso contrario, esse tamanho fica fixo.
 
 Se quisermos por exemplo que ao passar a ceta do mouse encima do box de preenchimento fique pintado de cor, no css:

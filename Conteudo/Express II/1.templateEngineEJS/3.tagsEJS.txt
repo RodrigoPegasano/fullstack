@@ -1,0 +1,24 @@
+TUDO QUE ESTÁ AQUI FOI CRIADO EM Criações > expII
+
+O que é a tag <% ... %>?
+
+Nos permite incorporar código JavaScript, tais como condicionais, estruturas de controle de fluxo, declarar variaveis, etc.
+
+Exemplo: (gerar uma sentença de fluxo)
+
+<% for (let i=1; i <= 10; i++) { %>
+  
+  Aqui pode ir qualquer conteudo de html
+
+<% } %>
+
+Tag para imprimir algo em html, a tag é:
+
+<%= %> (essa tag diz que deve ser impresso tudo que estiver dentro)
+
+Exemplo:
+
+<% for (let i=1; i <= 23; i++) { %>
+   
+   <li> Sou o item número <%= i %></li>
+<% } %>

@@ -1,10 +1,38 @@
-TUDO QUE ESTÁ AQUI FOI CRIADO EM CRIAÇÕES > CRIANDO-EXPII-PC
+TUDO QUE ESTÁ AQUI FOI CRIADO EM CRIAÇÕES > expII
 
-Instalção automatica:
+Criando como exemplo a pagina de contato:
 
-Primeiro devemos instalar o express global:
-  npm install -g express-generator
+1. Criar pasta controllers
+2. Dentro de controllers criar arquivo js "ContatoController.js"
+3. Dentro do arquivo:
+  const ContatoController = {
+    index: (req, res) => {
+      return res.render("contato")
+    }
+  };
 
-Depois criar o projeto instalando o ejs:
-   express --view=ejs nomeProjetoInexistente
-Esse modelo automático cria a pasta com o nome que você deu e tudo que pode ser necesario no nosso projeto
+  module.exports = ContatoController;
+
+4. Na pasta routes > index:
+  var ContatoController = require("../controllers/ContatoController");
+
+  router.get("/contato", ContatoController.index);
+
+5. Na pasta Views criar arquivo "contato.ejs"
+6. Colar o mesmo padrão do "index.ejs" de html
+
+7. Para saber se ta rodando o servidor, devemos instalar o nodemon:
+   npm install nodemon e npm install
+
+7.1 Para rodar o nodemon:
+
+  Opção 1: nodemon OU nodemon start
+  Opção 2: node .bin/www OU node .bin/www start
+
+8. Rodamos o nodemon e no google colocamos:
+   localhost:3000
+
+IMPORTANTE:
+Se queremos que a "/" procure na pasta 'public' devemos adicionar no app.js:
+
+   app.use(express.static(path.join(__dirname, 'public')));
